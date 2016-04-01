@@ -763,7 +763,7 @@ class NAApiClient
 
     public function getPartnerDevices()
     {
-        return $this->api("partnerdevices", "POST");
+        return $this->api("getpartnerdevices", "POST");
     }
 
     /**
